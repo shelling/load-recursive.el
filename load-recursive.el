@@ -27,6 +27,6 @@
      ((stringp type)
       (recursive-load type)))))
 
-(provide 'load-recursive.el)
+(provide 'load-recursive)
 
 ;;; load-recursive.el ends here
