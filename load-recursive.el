@@ -9,6 +9,8 @@
 
 ;;; Code:
 
+(require 'cl)
+
 (defun recursive-load (name)
   (let ((type (car (file-attributes name))))
     (cond
